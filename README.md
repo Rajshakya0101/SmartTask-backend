@@ -46,11 +46,12 @@ It communicates with the **React + Tailwind frontend** to deliver a **personaliz
 ---
 
 ## 📂 Folder Structure
+```bash
 SmartTask-backend/
 ├── app.py               # Main Flask app
 ├── requirements.txt     # Python dependencies
 └── README.md
-
+```
 ---
 
 ## ⚡ Installation & Setup
