@@ -85,11 +85,13 @@ python app.py
 1️⃣ Solve Task Scheduling Problem
 
 Endpoint:
+```bash
 
 POST /solve
-
+```
 
 Request Body (JSON):
+```bash
 
 {
   "tasks": [
@@ -119,7 +121,7 @@ Request Body (JSON):
   "labor_capacity": 5,
   "task_dependencies": [["Project Work", "Study ML"]]
 }
-
+```
 
 Request Fields:
 
@@ -137,6 +139,7 @@ Request Fields:
 | `task_dependencies` | Array   | ❌ No     | List of task dependencies (`[["A","B"]]` means A requires B) |
 
 Response Example (JSON):
+```bash
 
 {
   "status": "Optimal",
@@ -147,7 +150,7 @@ Response Example (JSON):
   },
   "objective_value": 9
 }
-
+```
 
 Response Fields:
 
