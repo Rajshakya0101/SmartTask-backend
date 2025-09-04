@@ -165,28 +165,29 @@ Response Fields:
 2️⃣ Health Check
 
 Endpoint:
+```bash
 
 GET /api/health
-
+```
 
 Response:
-
+```bash
 {
   "status": "OK",
   "message": "SmartTask Backend is running 🚀"
 }
-
+```
 ---
 
 🚀 Deployment
 
 The backend is deployed on Render.
 To redeploy, push your latest code to the main branch:
-
+```bash
 git add .
 git commit -m "Update backend"
 git push origin main
-
+```
 ---
 
 👨‍💻 Author
@@ -194,5 +195,5 @@ git push origin main
 Raj Shakya
 📧 rajshakya.orai18@gmail.com
 
-🌐 LinkedIn
+🌐 [LinkedIn](https://www.linkedin.com/in/raj-shakya-8b205225b/)
  | GitHub
